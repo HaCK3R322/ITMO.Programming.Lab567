@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-07T14:18:39.215008700Z</date>
+  <millis>1633616319215</millis>
+  <nanos>8700</nanos>
+  <sequence>0</sequence>
+  <logger>LOGGER</logger>
+  <level>INFO</level>
+  <class>com.androsov.server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server starts to work.</message>
+</record>
+<record>
+  <date>2021-10-07T14:18:39.647851700Z</date>
+  <millis>1633616319647</millis>
+  <nanos>851700</nanos>
+  <sequence>1</sequence>
+  <logger>LOGGER</logger>
+  <level>INFO</level>
+  <class>com.androsov.server.dao.ProductStorageDao</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Storage got 4 persons and 6 users and 4 products {
+
+        product (id = 1): Razer Mouse; user nickname: 309629;
+        product (id = 2): Gamer Girl Bathwater; user nickname: 309629;
+        product (id = 18): JesusChrist; user nickname: 309629;
+        product (id = 23): anhcij; user nickname: lol;
+
+}</message>
+</record>
+<record>
+  <date>2021-10-07T14:18:45.034295200Z</date>
+  <millis>1633616325034</millis>
+  <nanos>295200</nanos>
+  <sequence>2</sequence>
+  <logger>LOGGER</logger>
+  <level>INFO</level>
+  <class>com.androsov.server.io.ServerIO</class>
+  <method>acceptAll</method>
+  <thread>1</thread>
+  <message>Connected client /127.0.0.1:54724</message>
+</record>
